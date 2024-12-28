@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    /* background-color: aquamarine; */
+}
+#nav{
+    height:80px;
+    width:100%;
+    /* background-color: red; */
+    display:flex;
+    justify-content: space-between;
+    padding:30px 60px;
+}
+#nav-part1{
+    display:flex;
+    justify-content: space-between;
+    width:40%;
+}
+#nav-part2{
+    display:flex;
+    justify-content: space-between;
+    width:40%;
+}
+#nav h2{
+    font-size:18px;
+    font-weight:550;
+}
+#nav h3{
+    font-size: 18px;
+    font-weight: 550;
+}
+#nav h4{
+    font-size: 18px;
+    font-weight: 550;
+}
+#content{
+    margin-top: 80px;
+    padding:40px 60px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 550;
+}
+#content h1{
+    font-size: 120px;
+    font-weight:545;
+    line-height:135px;
+    margin-top: 35px;
+    letter-spacing:-5px ;
+    word-spacing: 5px;
+}
+#case{
+    padding:40px 60px;
+    margin-top:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 20px;
+    font-weight: 520;
+}
+#case h5{
+    font-size:16px;
+    font-weight:520;
+}
+#right{
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+#line{
+    height:2px;
+    width:90px;
+    background-color: #000;
+}
+#projects{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 60px;
+    gap:80px;
+}
+.elem{
+    width:50%;
+}
+.elem-img{
+    height:600px;
+    background-color:rgb(225, 214, 214);
+    width:100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img-1{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0283d382-0feb-4d6b-86f6-69ec2817d857/dc2fouk-ed449fbb-8fd5-49d9-9ea3-e445fea08148.png/v1/fit/w_828,h_828/bejeweled_orange_gem_by_ldinos_dc2fouk-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzAyODNkMzgyLTBmZWItNGQ2Yi04NmY2LTY5ZWMyODE3ZDg1N1wvZGMyZm91ay1lZDQ0OWZiYi04ZmQ1LTQ5ZDktOWVhMy1lNDQ1ZmVhMDgxNDgucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.O8-xraeh51ApwdjsgLDUf3VIRbkNSM-uXMOaeLK3ZVA);
+}
+#img-2{
+    background-image: url(https://play-lh.googleusercontent.com/AlmIl24eJ2Wgd5DphCk2KkuJZgDIgdkJn3Ghz_SSiXBk3hRHHBvB5MVHTgEZM9alT2I=w2560-h1440-rw);
+}
+.bottom{
+    display:flex;
+    justify-content:space-between;
+    padding:30px 8px;
+}
+.bottom i{
+    padding:15px 25px;
+    font-size:20px;
+    border:2px solid #000;
+    border-radius: 50px;
+    font-weight:600;
+}
+.bottom i:hover{
+    background-color: #000;
+    color:#fff;
+}
+.bottom h2{
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+.bottom h4{
+    font-size:16px;
+    color:#969696;
+    font-weight: 500;
+}
