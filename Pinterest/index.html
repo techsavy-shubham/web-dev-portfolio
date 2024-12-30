@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="nav">
+        <div id="work-1">
+            <i class="ri-pinterest-fill"></i>
+            <h3 id="home">Home</h3>
+            <h3 id="create">Create<i class="ri-arrow-down-s-line"></i></h3>
+        </div>
+        <div id="work-2">
+            <i class="ri-search-line"></i>
+         <input type="text" placeholder="Search" id="inputBox" onkeyup="filterNames()">
+         <ul id="nameList" class="name-list"></ul>
+        </div>
+        <div id="work-3">
+            <div id="icons">
+                <i class="ri-notification-fill"></i>
+                <i class="ri-message-2-fill"></i>
+                
+                <i class="ri-arrow-drop-up-line"></i>
+                <i class="ri-arrow-down-s-line"></i>
+            </div>
+        </div>
+
+    </div>
+    <div id="container">
+       <div class="card">card1</div>
+       <div class="card">card2</div>
+       <div class="card">card3</div>
+       <div class="card">card4</div>
+       <div class="card">card5</div>
+       <div class="card">card6</div>
+    </div>
+    <div class="blur-overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
