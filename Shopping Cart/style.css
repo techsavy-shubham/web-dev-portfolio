@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+    /* background-color: blue;; */
+}
+#nav{
+    padding:25px 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav i{
+    font-size: 20px;
+}
+#input-bar{
+    padding:5px 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+#input-box{
+    width:100%;
+    height:50px;
+    border-radius: 10px;
+    padding:15px;
+    font-size: 15px;
+    color: grey;
+    background-color: rgb(232, 226, 226);
+    border:none;
+    margin-right: 15px;
+}
+#input-bar i{
+    font-size:20px ;
+    /* border: 2px solid #000; */
+    padding:15px;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(44, 41, 41);
+    font-weight:500;
+}
+#icons{
+    padding:50px 30px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.ri-home-2-line{
+    font-size: 25px;
+    padding:25px;
+    border-radius: 50%;
+    color:gold;
+    background-color:rgb(44, 41, 41);
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.2), 
+        inset 0 -2px 5px rgba(255, 255, 255, 0.5);
+}
+.common-css{
+    font-size: 25px;
+    font-weight: 500;
+    padding:20px;
+    margin-left:-30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.2), 
+        inset 0 -2px 5px rgba(255, 255, 255, 0.5);
+    /* text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7); */
+    /* background-color: red; */
+}
+
+#products{
+    padding:15px 30px;
+    display:grid;
+    gap:30px;
+    grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+    /* grid-template-rows: 300px 300px; */
+    
+}
+
+.card{
+    border: 2px solid #f2eeee;
+    padding:10px;
+    border-radius: 10px;
+    position:relative;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.2), 
+        inset 0 -2px 5px rgba(255, 255, 255, 0.5);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.product-img{
+    /* margin-top: 10px; */
+    background-color: rgb(229, 222, 222);
+    height:225px;
+    width:100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    margin:8px;
+}
+.content h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.content h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    font-weight:lighter;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+.content h5{
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+.content i{
+ font-size: 25px;
+ background-color: rgb(44, 41, 41);
+ color:gold;
+ padding:10px;
+ border-radius: 50%;
+ position:absolute;
+ left:75%;
+ bottom:8%;
+}
+#popular{
+    font-size: 30px;
+   padding:20px;
+   margin-left: 10px;
+   font-family:sans-serif;
+   font-style: oblique;
+   font-weight: 600;
+}
+#popular-products{
+    margin:10px 30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(330px,1fr));
+    grid-template-rows: repeat(auto-fill,minmax(200px,1fr));
+    gap:30px;
+    overflow-y: auto;
+    overflow-x: auto;
+    padding-bottom: 120px;
+}
+.card1{
+display:flex;
+width:auto;
+align-items: center;
+gap:20px;
+border: 2px solid #f0f0f0;
+border-radius: 10px;
+padding:15px;
+margin-bottom: 20px;
+box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.2), 
+        inset 0 -2px 5px rgba(255, 255, 255, 0.5);
+}
+.popular-product-img{
+    height:180px;
+    width:250px;
+    /* background-image: url(https://images.unsplash.com/photo-1640258941842-87fcb2d0999c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-size:cover;
+    background-position:center;
+    border-radius: 10px;
+    display: block;
+    padding:30px;
+    /* background-color: blue; */
+    /* background-color: greenyellow;
+    background-blend-mode: multiply; */
+}
+.content1{
+    margin-left: 5px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* background-color: red; */
+}
+.content1 h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.content1 h4{
+    font-size: 15px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+.content1 h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+#footer{
+    padding:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top: 2px solid #f0f0f0; /* Very light and subtle */
+    background-color: #f9f9f9; /* Slightly off-white background */
+    position: relative;
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+#icon-part1{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.ri-home-2-fill{
+   font-size: 25px;
+   color: rgb(138, 132, 132);
+   margin-right: 40px;
+}
+.ri-heart-fill{
+    font-size: 25px;
+    color:#ccc;
+}
+.ri-shopping-bag-fill{
+    font-size: 25px;
+    color: gold;
+    background-color:rgb(44, 41, 41);
+    padding:25px;
+    border-radius: 50px;
+    position:absolute;
+    bottom:45%;
+    left:48%;
+}
+#icon-part2{
+    display: flex;
+    align-items: center;
+}
+.ri-settings-fill{
+    font-size: 25px;
+    margin-right: 40px;
+    color:#ccc;
+}
+.ri-user-fill{
+    font-size: 23px;
+    margin-right: 20px;
+    color:#ccc;
+}
+#cart-dropdown{
+    position:absolute;
+    top:60px;
+    right:30px;
+    width:300px;
+    max-height:400px;
+    background-color: white;
+    border:1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding:15px;
+    overflow-y:auto;
+    display:none;
+}
+
+#cart-dropdown.visible{
+    display:block;
+}
+
+.cart-item{
+    display:flex;
+    align-items:center;
+    margin-bottom:10px;
+}
+
+.cart-item-img{
+    width:50px;
+    height:50px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.cart-item-info h4{
+    font-size:16px;
+    margin:0;
+}
+
+.cart-item-info p{
+    font-size:14px;
+    color:#888;
+}
